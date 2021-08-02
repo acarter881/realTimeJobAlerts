@@ -208,7 +208,7 @@ runs = 1
 
 # Create the class and run the functions
 while True:
-    print(f'\nGoing on run number: {str(runs)}')
+    print(f'\nGoing on run number: {runs}')
     WORKDAY = myWorkday()
     WORKDAY.startBrowser()
     WORKDAY.scrapeHTML()
